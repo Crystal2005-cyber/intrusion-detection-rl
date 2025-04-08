@@ -10,14 +10,15 @@ intrusion-detection-rl/ ├── data/
 # Raw dataset files (download manually)
                                         │ ├── KDDTrain+.TXT
                                         │ └── KDDTest+.TXT
-                                        ├── preprocess.py 
   # Preprocesses and saves X_train, y_train, etc. 
-                                        ├── rl_agent.py 
+                                        ├── preprocess.py  
   # Q-learning agent implementation 
-                                        ├── environment.py
+                                        ├── train.py
   # RL environment simulating classification
-                                        ├── train.py 
+                                        ├── environment.py
   # Script to train the RL agent 
-                                        ├── requirements.txt 
+                                        ├── rl_agent.py 
   # Required Python libraries 
+                                        ├── requirements.txt
+  # Description                                      
                                         └── README.md 
